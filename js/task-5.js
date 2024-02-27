@@ -9,8 +9,6 @@ button.addEventListener("click", function () {
 });
 
 function getRandomHexColor() {
-  //console.log("натиснуто");
-
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
